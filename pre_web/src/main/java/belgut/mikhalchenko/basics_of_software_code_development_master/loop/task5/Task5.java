@@ -8,6 +8,10 @@ import static java.lang.Math.abs;
 import static java.lang.Math.pow;
 
 public class Task5 {
+    public static void main(String[] args) {
+        sum(10, 0.25);
+    }
+
     private static void sum(int n, double e) {
         double sum = 0;
         for (int i = 0; i < n; i++) {
@@ -19,9 +23,6 @@ public class Task5 {
         System.out.println(sum);
     }
 
-    public static void main(String[] args) {
-        sum(10, 0.25);
-    }
 
 
 }

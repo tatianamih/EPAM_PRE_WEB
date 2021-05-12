@@ -9,7 +9,9 @@ import java.io.InputStreamReader;
 
 
 public class Task7 {
-
+    public static void main(String[] args) throws IOException {
+        getTheDivisor();
+    }
     public static void getTheDivisor() throws IOException {
         int m;
         int n;
@@ -33,7 +35,5 @@ public class Task7 {
         }
     }
 
-    public static void main(String[] args) throws IOException {
-        getTheDivisor();
-    }
+
 }
