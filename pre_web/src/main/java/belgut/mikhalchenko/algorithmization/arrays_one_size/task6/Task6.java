@@ -4,9 +4,8 @@ package belgut.mikhalchenko.algorithmization.arrays_one_size.task6;
 //являются простыми числами*/
 public class Task6 {
     public static void main(String[] args) {
-        findSum(5);
+                findSum(5);
     }
-
     static void findSum(int n) {
         double[] array = new double[n];
         double b = 0.0;
