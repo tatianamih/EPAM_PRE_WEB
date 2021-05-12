@@ -27,7 +27,6 @@ public class Task10 {
             System.out.print(ar + " ");
         }
     }
-
     static void changeArray(int[] array) {
 
         for (int i = 1; i <= array.length / 2; i++) {
